@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Week 03</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="js/includeHTML.js"></script>
+    <script src="js/week03.js"></script>
+</head>
+<body>
+    <div inclusions="html/header.html"></div>
+    <div class="container-fluid" id="main">
+        <form id="forLoops">
+            How many for/while loops do you want to execute?<br>
+            <input type="text" id="loopCount" value="Enter a number">
+            <button type="button" onclick="forLoops()">Run Loops</button>
+        </form>
+        <p id="notice"></p>
+        <div id="executedLoops">
+            <h3 id="forLoopResults"></h3>
+            <p id="displayForLoopResults"></p>
+            <h3 id="whileLoopResults"></h3>
+            <p id="displayWhileLoopResults"></p>
+        </div>
+    </div>
+    <div inclusions="html/footer.html"></div>
+    <script>
+        includeHTML();
+    </script>
+</body>
+</html>
