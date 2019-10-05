@@ -1,6 +1,14 @@
+// demonstrates the for, while, and do while loops
 function forLoops() {
     // gets user input
     var loopCount = document.getElementById("loopCount").value;
+    document.getElementById("notice").innerHTML = "";
+    document.getElementById("forLoopResults").innerHTML = "";
+    document.getElementById("displayForLoopResults").innerHTML = "";
+    document.getElementById("whileLoopResults").innerHTML = "";
+    document.getElementById("displayWhileLoopResults").innerHTML = "";
+    document.getElementById("doLoopResults").innerHTML = "";
+    document.getElementById("displayDoLoopResults").innerHTML = "";
 
     if (loopCount == 0) {
         document.getElementById("notice").innerHTML = "The For and While loops will not run now. However, the Do loop will run once.";
@@ -60,4 +68,22 @@ function forLoops() {
         var lineBr = document.createElement("br");
         document.getElementById("displayDoLoopResults").append(lineBr);
     } while (doCounter < loopCount);
+}
+
+// adds items to an array
+function addArrayItems()
+{
+
+}
+
+// removes items from an array
+function removeArrayItems()
+{
+
+}
+
+// demonstrates for/in and for/of loops
+function forInOfLoops()
+{
+
 }
