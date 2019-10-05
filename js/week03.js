@@ -1,3 +1,6 @@
+// global variables
+var theArray = [Date.now()];
+
 // demonstrates the for, while, and do while loops
 function forLoops() {
     // gets user input
@@ -73,7 +76,7 @@ function forLoops() {
 // adds items to an array
 function addArrayItems()
 {
-
+    theArray.push(document.getElementById("itemsInArray").value);
 }
 
 // removes items from an array
@@ -85,5 +88,8 @@ function removeArrayItems()
 // demonstrates for/in and for/of loops
 function forInOfLoops()
 {
+    for (x in theArray)
+    {
 
+    }
 }
